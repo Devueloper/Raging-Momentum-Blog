@@ -11,6 +11,7 @@ import {
   Comments,
   CommentsForm,
   Loader,
+  JoinDiscord,
 } from '../../components';
 
 const PostDetails = ({ post }) => {
@@ -35,6 +36,7 @@ const PostDetails = ({ post }) => {
               categories={post.categories.map((category) => category.slug)}
             />
             <Categories />
+            <JoinDiscord />
           </div>
         </div>
       </div>
